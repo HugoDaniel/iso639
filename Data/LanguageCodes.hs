@@ -1,6 +1,6 @@
 module Data.LanguageCodes where
 import Prelude hiding (Ordering(..))
- 
+
 data ISO639_1 = AA
               | AB
               | AE
