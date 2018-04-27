@@ -185,7 +185,7 @@ data ISO639_1 = AA
               | ZA
               | ZH
               | ZU
-              deriving (Show, Read, Eq, Enum, Ord)
+              deriving (Show, Read, Eq, Enum, Bounded, Ord)
 toChars (code)
   = case (code) of
         (AA) -> ('a', 'a')
